@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+.contenedor
+{
+    margin: auto;
+    padding: auto;
+
+}
+
+
+
+header
+{   
+    height: 20;
+    background-image: linear-gradient(185deg,rgb(25, 0, 255),white );
+    border: 4px solid white;
+
+}
+
+#title
+{
+    display: inline-block;
+}
+
+header h1
+{
+    
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2
+{
+    
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+nav
+{   
+    background-image: linear-gradient(182deg,rgb(147, 165, 245),rgb(175, 134, 250) );
+    display: inline-block;
+    height: 5vh;
+    text-align: center;
+    border: 4px solid white;
+}
+
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: rgb(0, 23, 49);
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover
+{
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+/* Banner */
+
+
+
+
+ article
+{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+aside
+{
+    background-color: blueviolet;
+    display: inline-block;
+    vertical-align: top;
+    text-align:right;
+    border: 4px solid white;
+    height: 100vh;
+    
+}
+
+footer
+{
+    background-color: linear-gradient(182deg,rgba(117, 93, 255, 0.76),rgb(87, 118, 255) );
+    height: 15vh;
+    padding-top: 20px;
+   
+}
+
+ 
+footer a
+{
+    float: right;
+}
+
+    
+   
+
+
+section {
+    background-image: url('img/montañas.jpg' );
+    display: inline-block;
+    height: 60vh;
+    
+    border: 4px solid black;
+    
+
+
+}

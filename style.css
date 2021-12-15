@@ -1,0 +1,521 @@
+*{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: auto;
+    padding: 20px;
+    background-image: url('img/montañas.jpg');
+
+
+
+}
+
+
+
+.logo
+{   
+    background-image: linear-gradient(190deg,rgb(30, 0, 255),white );
+    padding: auto;
+    border-radius: 20px;
+    
+
+}
+
+.oculto
+{   
+    height:12vh;
+    background-image: linear-gradient(190deg,rgba(30, 0, 255, 0),rgba(255, 255, 255, 0) );
+    border-radius: 20px;
+    margin: 0%;
+    
+
+}
+
+
+
+.nav-item{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+.nav
+{   
+    background-image: linear-gradient(182deg,rgb(137, 155, 235),rgb(155, 110, 238) );
+    display: inline-block;
+    height: 5vh;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.escrito1{
+    height: 75vh;
+    background-image: url('img/wolf2.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 40%;
+    margin: 0%;
+    padding: auto;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: top;
+    
+    
+
+}
+
+
+
+.frase1{
+    height: 10vh;
+    background-image: linear-gradient(182deg,rgb(137, 155, 235),rgb(155, 110, 238) );
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0%;
+    
+    
+
+}
+
+
+
+
+.proyectos{
+    height: 12vh;
+    background-color: rgba(0, 0, 255, 0.253);
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+
+
+
+.multimedia{
+    height: 50vh;
+    background-color: rgba(137, 43, 226, 0.171);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.datospersonales{
+    height: 40vh;
+    background-color: rgba(0, 0, 255, 0.308);
+    border: 4px solid white;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    text-align: justify;
+    border-radius: 20px;
+
+}
+
+.datospersonales h2{
+    font-size: medium;
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .datospersonales{
+        height: 90vh;
+    }
+}
+
+.sobremifoto{
+    height: 40vh;
+    background-color: rgba(0, 0, 255, 0.26);
+    border: 4px solid white;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: auto;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+@media only screen and (max-width: 970px) 
+{
+    .sobremifoto{
+        height: 55vh;
+    }
+}
+
+
+.habilidadesb {
+    height: 70vh;
+    background-color: rgba(137, 43, 226, 0.178);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+
+}
+.habilidadesb h2
+{
+    font-size: large;
+}
+
+@media only screen and (max-width: 970px) 
+{
+    .habilidadesb{
+        height: 90vh;
+    }
+}
+
+.habilidadest{
+    height: 70vh;
+    background-color: rgba(137, 43, 226, 0.178);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+.habilidadest h2
+{
+    font-size: large;
+}
+
+
+.educacion{
+    height: 60vh;
+    background-color: rgba(153, 0, 255, 0.164);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+.educacion p
+{
+    font-size: large;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    .educacion{
+        height: 70vh;
+    }
+}
+
+.explaboral{
+    height: 60vh;
+    background-color: rgba(162, 0, 255, 0.247);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    .explaboral{
+        height: 75vh;
+    }
+}
+
+.quehago{
+    height: 60vh;
+    background-color: rgba(137, 43, 226, 0.247);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+.quehago h1{
+    text-align: center;
+}
+.quehago p{
+    font-size: large;
+}
+
+@media only screen and (max-width: 1200px) 
+{
+    .quehago{
+        height: 70vh;
+    }
+}
+
+
+
+.galeria{
+    height: 15vh;
+    background-color: rgba(0, 0, 255, 0.308);
+    border: 4px solid white;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+.clientes{
+    height: 10vh;
+    background-color: rgba(132, 0, 255, 0.192);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+
+
+.imgadvd{
+    height: 40vh;
+    background-color: rgba(162, 0, 255, 0.178);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: auto;
+    padding: auto;
+    border-radius: 20px;
+    
+
+}
+
+
+
+.carousel__contenedor {
+	position: relative;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: rgb(255, 255, 255);
+	
+}
+
+
+
+.carousel__anterior {
+	left: -20px;
+}
+
+.carousel__siguiente {
+	right: -20px;
+}
+
+.carousel__lista {
+	overflow: hidden;
+}
+
+.carousel__elemento {
+	text-align: center;
+}
+
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #fff;
+	border-radius: 0;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+	.contenido-principal {
+		flex-direction: column;
+	}
+
+	.contenido-principal > * {
+		width: 100%;
+	}
+}
+
+
+.experiencias{
+    height: 20vh;
+    background-color: rgba(137, 43, 226, 0.185);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+.libros{
+    height: 20vh;
+    background-color: rgba(137, 43, 226, 0.192);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+
+}
+
+
+
+
+.contacto{
+    height: 6vh;
+    background-color: rgba(0, 0, 255, 0.253);
+    border: 4px solid white;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    text-align:center ;
+    border-radius: 20px;
+
+}
+
+.nombre2{
+    height: 15vh;
+    background-color: rgba(137, 43, 226, 0.185);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    text-align:center ;
+    border-radius: 20px;
+
+}
+
+
+
+.whatsapp{
+    height: 40vh;
+    background-color: rgba(137, 43, 226, 0.192);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+
+
+.correo{
+    height: 40vh;
+    background-color: rgba(137, 43, 226, 0.185);
+    display: inline-block;
+    vertical-align: top;
+    border: 4px solid white;
+    color: white;
+    margin: 0%;
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+.correo p
+{
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 800px) 
+{
+    .correo{
+        display: none;
+    }
+}
+
+.item img{
+	height: 70vh;
+
+}
+.item img:hover{
+	border: 2vh solid transparent;
+	
+}
+
+
+
+.item img{
+	height: 60vh;
+
+}
+.item img:hover{
+	border: 2vh solid transparent;
+	
+}
+
+
